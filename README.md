@@ -4,8 +4,10 @@ Microservices Project With Docker
 Requirements :
 ------------------------------------------------------------
 ASP.Net Core Version = 6.0.102;
-Visual Studio Version = 2022 (For dotnet 6.0)
-Docker With (Redis - SQL Server - MongoDB - RabbitMQ - PostgreSQL & Portainer.io) Images // IF you run docker compose this images will be downloaded automatically
+
+Visual Studio Version = 2022 (For dotnet 6.0);
+
+Docker With (Redis - SQL Server - MongoDB - RabbitMQ - PostgreSQL & Portainer.io) Images // IF you run docker compose this images will be downloaded automatically;
 
 Docker Requirements :
 ------------------------------------------------------------
@@ -16,6 +18,7 @@ CPU: 2
 How To Run Project ?
 ------------------------------------------------------------
 After Install Requirements And Clone or Download the Project
+
 go to src/ Folder open terminal and run this command :
 
 docker-compose -f docker-compose.yml -f docker-compose.override.yml up -d
