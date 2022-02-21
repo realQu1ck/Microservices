@@ -2,23 +2,26 @@
 Microservices Project With Docker
 
 Requirements :
-
+------------------------------------------------------------
 ASP.Net Core Version = 6.0.102;
 Visual Studio Version = 2022 (For dotnet 6.0)
 Docker With (Redis - SQL Server - MongoDB - RabbitMQ - PostgreSQL & Portainer.io) Images // IF you run docker compose this images will be downloaded automatically
-------------------------------------------------------------
+
 Docker Requirements :
+------------------------------------------------------------
+
 Memory : 4GB
 CPU: 2
-------------------------------------------------------------
+
 How To Run Project ?
+------------------------------------------------------------
 After Install Requirements And Clone or Download the Project
 go to src/ Folder open terminal and run this command :
-------------------------------------------------------------
-docker-compose -f docker-compose.yml -f docker-compose.override.yml up -d
-------------------------------------------------------------
-URLs :
 
+docker-compose -f docker-compose.yml -f docker-compose.override.yml up -d
+
+URLs :
+------------------------------------------------------------
 Catalog API -> http://localhost:8000/swagger/index.html 	| for debug or run -> http://localhost:5000/swagger/index.html 
 
 Basket API -> http://localhost:8001/swagger/index.html 		| for debug or run -> http://localhost:5001/swagger/index.html 
@@ -41,6 +44,7 @@ pgAdmin PostgreSQL -> http://localhost:5050 -- Username - Password in Docker Com
 
 
 This Project Its Not Complate yet ...!!! :D
+------------------------------------------------------------
 - Gateway
 - WebUI
 Its not develope i finish it soon 0_-
